@@ -1,6 +1,6 @@
 {
-  "name": "xmldom",
-  "version": "0.4.1-dev",
+  "name": "arvato-xmldom",
+  "version": "0.5.0",
   "description": "A pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer module.",
   "keywords": [
     "w3c",
@@ -12,10 +12,10 @@
     "XMLSerializer"
   ],
   "author": "jindw <jindw@xidea.org> (http://www.xidea.org)",
-  "homepage": "https://github.com/xmldom/xmldom",
+  "homepage": "https://github.com/rrattke/xmldom.git",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xmldom/xmldom.git"
+    "url": "https://github.com/rrattke/xmldom.git"
   },
   "main": "lib/dom-parser.js",
   "types": "types",
@@ -86,6 +86,11 @@
       "name": "Eric Newport",
       "email": "kethinov@gmail.com",
       "web": "https://github.com/kethinov"
+    },
+    {
+      "name": "Rainer Rattke",
+      "email": "rainer.rattke@outlook.de",
+      "web": "https://github.com/rrattke"
     }
   ],
   "bugs": {
