@@ -17,13 +17,16 @@
     "type": "git",
     "url": "https://github.com/rrattke/xmldom.git"
   },
-  "main": "lib/dom-parser.js",
-  "types": "types",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "files": [
     "CHANGELOG.md",
     "LICENSE.md",
     "readme.md",
-    "lib"
+    "index.js",
+    "index.d.ts",
+    "lib/*.js",
+    "lib/*.d.ts"
   ],
   "scripts": {
     "lint": "npm-run-all lint:eslint",

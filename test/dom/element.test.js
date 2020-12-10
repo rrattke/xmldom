@@ -1,8 +1,8 @@
 'use strict'
 
+var XMLSerializer = require('../../lib/dom').XMLSerializer
 var DOMParser = require('../../lib/dom-parser').DOMParser
 var assert = require('../assert')
-var XMLSerializer = require('../../lib/dom-parser').XMLSerializer
 
 // Create a Test Suite
 describe('XML Namespace Parse', () => {
