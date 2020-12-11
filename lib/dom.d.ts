@@ -377,8 +377,13 @@ interface Document extends Node, NonElementParentNode {
      */
     importNode<T extends Node>(importedNode: T, deep: boolean): T;
     /**
-    * Returns a NodeList of the elements in the object on which the method was invoked (a document or an element) that have all the classes given by classNames. The classNames argument is interpreted as a space-separated list of classes.
-    */
+     * Returns a reference to the first object with the specified value of the ID or NAME attribute.
+     * @param elementId String that specifies the ID value. Case-insensitive.
+     */
+    getElementById(elementId: string): Element | null;
+    /**
+     * Returns a NodeList of the elements in the object on which the method was invoked (a document or an element) that have all the classes given by classNames. The classNames argument is interpreted as a space-separated list of classes.
+     */
     getElementsByClassName(classNames: string): NodeListOf<Element>;
     /**
      * Creates an instance of the element for the specified tag.
