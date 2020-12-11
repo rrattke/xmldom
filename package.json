@@ -1,6 +1,6 @@
 {
   "name": "arvato-xmldom",
-  "version": "0.5.2",
+  "version": "0.5.4",
   "description": "A pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer module.",
   "keywords": [
     "w3c",
@@ -17,14 +17,12 @@
     "type": "git",
     "url": "https://github.com/rrattke/xmldom.git"
   },
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
     "CHANGELOG.md",
     "LICENSE.md",
     "readme.md",
-    "index.js",
-    "index.d.ts",
     "lib/*.js",
     "lib/*.d.ts"
   ],
