@@ -97,7 +97,7 @@ describe('XML Namespace Parse', () => {
 		assert.isTrue(doc.getElementById('root') != null, 'root')
 		assert(doc.getElementById('a1').getAttribute('title'), '1', 'first')
 		assert(doc.getElementById('a2').getAttribute('title'), '2', 'second')
-		assert(doc.getElementById('a2').getAttribute('title2'), '', 'empty')
+		assert(doc.getElementById('a2').getAttribute('title2'), null, 'empty')
 	})
 
 	it('can properly append exist child', () => {
